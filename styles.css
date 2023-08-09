@@ -1,0 +1,201 @@
+/*styles.css */
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+}
+
+/* Main header */
+header {
+    /*background-color: #ffc800;
+    color: #000000;*/
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/13/17/59/background-1591227_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    color: #000000;
+}
+
+/* Navigation menu */
+nav {
+    text-align: center;
+    background-color: #000000;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Main content container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Call-to-action button */
+.cta-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffc800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #000000;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    background-color: #ffc800;
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/13/17/59/background-1591227_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    margin-top:20px; /*adjust space between photos*/
+    border: 10px solid rgb(0, 0, 0);
+
+}
+
+/* Navigation Menu*/
+
+/* Style for the text */
+.hover-text {
+    font-size: 16px; /* Default font size */
+    transition: font-size 0.3s ease; /* Adding a smooth transition effect */
+    
+}
+
+/* Increase font size when hovering over the text */
+.hover-text:hover {
+    font-size: 25px; /* New font size when hovering */
+    text-decoration:wavy underline;
+    color: #ffffff;
+  
+}
+
+
+
+/*------Cool Underline------*/
+
+
+/* This class styles the container and sets the underline */
+.cool-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px; /* Adjust this value to control the distance between text and underline */
+    color: #fff;
+
+  }
+  
+  /* This pseudo-element creates the underline */
+  .cool-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; /* Adjust this value to control the thickness of the underline */
+    background-color: #ffc800; /* Adjust the color of the underline as you like */
+    transform: scaleX(0); /* Initial scale to hide the underline */
+    transform-origin: left;
+    transition: transform 0.3s ease; /* Smooth animation when the underline scales */
+  }
+  
+  /* Hover effect - Scale the underline on hover */
+  .cool-underline:hover::after {
+    transform: scaleX(1);
+  }
+  
+/*-------TABLE CHART-------*/
+
+/* styles.css */
+
+/* Center the table and set the border spacing */
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .professional-table {
+    border-collapse: collapse;
+    width: auto; /* Adjust the width of the table as needed */
+  }
+  
+  /* Style the header row */
+  .professional-table thead th {
+    background-color: #f2f2f2; /* Header background color */
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style the data rows */
+  .professional-table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Add alternating row background color for better readability */
+  .professional-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+  }
+  
+  /* Add hover effect for better interaction */
+  .professional-table tbody tr:hover {
+    background-color: #f5f5f5; /* Hovered row background color */
+  }
+  
