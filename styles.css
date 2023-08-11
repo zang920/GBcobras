@@ -22,7 +22,6 @@ header {
     text-align: center;
     padding: 40px 0;
 
-
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
     margin-bottom: 10px;
     font-family: fantasy;
     color: #000000;
-
 }
 
 /* Navigation menu */
@@ -40,7 +38,6 @@ nav {
     background-color: #000000;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgb(255, 255, 255);
-
 }
 
 nav a {
@@ -171,17 +168,11 @@ img {
     display: flex;
     justify-content: center;
     padding: 20px;
-    max-width: 100%; /* Set maximum width to 100% of the parent element */
-    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
-    box-sizing: border-box; /* Include padding and border in the total width */
-    margin: 0 auto; /* Center the container horizontally */
   }
   
   .professional-table {
     border-collapse: collapse;
-    width: 100%; /* Make the table fill the width of its container */
-    max-width: 100%; /* Set maximum width to prevent table from exceeding container */
-    /*width: auto;  Adjust the width of the table as needed */
+    width: auto; /* Adjust the width of the table as needed */
   }
   
   /* Style the header row */
@@ -207,4 +198,5 @@ img {
   .professional-table tbody tr:hover {
     background-color: #f5f5f5; /* Hovered row background color */
   }
+  
   
