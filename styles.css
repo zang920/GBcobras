@@ -21,6 +21,8 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     padding: 40px 0;
+    width: 100%; /* Make the table fill the width of its container */
+    max-width: 100%; /* Set maximum width to prevent table from exceeding container */
 
 }
 
@@ -30,6 +32,8 @@ h1 {
     margin-bottom: 10px;
     font-family: fantasy;
     color: #000000;
+    width: 100%; /* Make the table fill the width of its container */
+    max-width: 100%; /* Set maximum width to prevent table from exceeding container */
 }
 
 /* Navigation menu */
