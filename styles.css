@@ -21,6 +21,10 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     padding: 40px 0;
+    max-width: 100%; /* Set maximum width to 100% of the parent element */
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin: 0 auto; /* Center the container horizontally */
 
 }
 
