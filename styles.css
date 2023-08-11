@@ -21,7 +21,7 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     padding: 40px 0;
-    padding-top:40px 0;
+    padding-top:20px 0;
 
 }
 
@@ -31,6 +31,7 @@ h1 {
     margin-bottom: 10px;
     font-family: fantasy;
     color: #000000;
+    padding-top:20px 0;
 }
 
 /* Navigation menu */
