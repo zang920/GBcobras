@@ -60,6 +60,7 @@ nav a:hover {
     background-color: #fff;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
     max-height: 100%;
+    height: 100%;
 }
 
 /* Section styles */
