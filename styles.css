@@ -42,6 +42,8 @@ nav {
     background-color: #000000;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgb(255, 255, 255);
+    width: 100%; /* Make the table fill the width of its container */
+    max-width: 100%; /* Set maximum width to prevent table from exceeding container */
 }
 
 nav a {
